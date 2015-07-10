@@ -24,6 +24,9 @@ end
 comment_lines "Gemfile", /byebug/
 comment_lines "Gemfile", /web-console/
 
+require 'pry'
+binding.pry
+
 if yes?("Use devise?")
   gem 'devise'
   generate 'devise:install'
