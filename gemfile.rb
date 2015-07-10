@@ -30,6 +30,9 @@ gem_group :production do
   gem 'rails_12factor'
 end
 
+require 'pry'
+binding.pry
+
 if yes?("Use devise?")
   gem 'devise'
   generate 'devise:install'
