@@ -1,5 +1,5 @@
 # rails-template
-Goal:  make changes to the existing Rails template
+The goal is to make changes to the existing Rails template to add needed Gems for advanced Rails Apps
 
 Use with:
 
